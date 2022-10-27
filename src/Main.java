@@ -41,9 +41,8 @@ public class Main {
         //Task3
         System.out.println("Task3");
         int averageAmountSpent = amountOfExpenses;
-        for (int i = 0; i < arr.length; i++) {
             averageAmountSpent = amountOfExpenses / arr.length;
-        }
+
         System.out.println("Средняя сумма трат за месяц составила " + averageAmountSpent + " рублей");
 
         //Task4
